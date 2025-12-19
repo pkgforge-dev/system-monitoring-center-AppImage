@@ -13,12 +13,15 @@ export DESKTOP=/usr/share/applications/io.github.hakandundar34coding.system-moni
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 export DEPLOY_SYS_PYTHON=1
+export DEPLOY_GTK=1
+export GTK_DIR=gtk-4.0
 
 # Deploy dependencies
 quick-sharun \
 	/usr/bin/system-monitoring-center \
 	/usr/bin/usr/bin/amdgpu_top       \
-	/usr/bin/xrandr
+	/usr/bin/xrandr                   \
+	/usr/lib/libgirepository*
 
 sed -i \
 	-e '/^pkgdatadir/c\pkgdatadir = os.getenv("APPDIR", "/usr") + "/share/system-monitoring-center"' \
