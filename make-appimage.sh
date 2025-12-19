@@ -23,6 +23,7 @@ quick-sharun \
 sed -i \
 	-e '/^pkgdatadir/c\pkgdatadir = os.getenv("APPDIR", "/usr") + "/share/system-monitoring-center"' \
 	-e '/^localedir/c\localedir = os.getenv("APPDIR", "/usr") + "/share/locale"' \
+	-e '/import sys/a import os' \
 	./AppDir/bin/system-monitoring-center
 
 # Turn AppDir into AppImage
