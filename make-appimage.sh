@@ -17,7 +17,8 @@ export DEPLOY_SYS_PYTHON=1
 # Deploy dependencies
 quick-sharun \
 	/usr/bin/system-monitoring-center \
-	/usr/bin/usr/bin/amdgpu_top
+	/usr/bin/usr/bin/amdgpu_top       \
+	/usr/bin/xrandr
 
 sed -i \
 	-e '/^pkgdatadir/c\pkgdatadir = os.getenv("APPDIR", "/usr") + "/share/system-monitoring-center"' \
