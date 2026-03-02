@@ -13,6 +13,7 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
+make-aur-package python-sv-ttk
 make-aur-package system-monitoring-center
 
 # If the application needs to be manually built that has to be done down here
