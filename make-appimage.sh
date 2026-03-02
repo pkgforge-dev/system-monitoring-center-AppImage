@@ -21,7 +21,8 @@ quick-sharun \
 	/usr/bin/system-monitoring-center \
 	/usr/bin/amdgpu_top               \
 	/usr/bin/xrandr                   \
-	/usr/lib/libgirepository*
+	/usr/lib/tcl*                     \
+	/usr/lib/tk*
 
 sed -i \
 	-e '/^pkgdatadir/c\pkgdatadir = os.getenv("APPDIR", "/usr") + "/share/system-monitoring-center"' \
