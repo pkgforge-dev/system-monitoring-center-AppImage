@@ -19,7 +19,7 @@ export GTK_DIR=gtk-4.0
 # Deploy dependencies
 quick-sharun \
 	/usr/bin/system-monitoring-center \
-	/usr/bin/usr/bin/amdgpu_top       \
+	/usr/bin/amdgpu_top               \
 	/usr/bin/xrandr                   \
 	/usr/lib/libgirepository*
 
