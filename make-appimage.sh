@@ -12,7 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/io.github.hakandundar34coding
 export DESKTOP=/usr/share/applications/io.github.hakandundar34coding.system-monitoring-center.desktop # longest icon and desktop names ever
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
-export DEPLOY_SYS_PYTHON=1
+export DEPLOY_PYTHON=1
 export DEPLOY_GTK=1
 export GTK_DIR=gtk-4.0
 
